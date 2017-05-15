@@ -203,8 +203,8 @@ input {
 .header-main {
   float: left;
   width: 100%;
-  padding-top: 85px;
-  padding-bottom: 85px;
+  padding-top: 115px;
+  padding-bottom: 115px;
   box-sizing: border-box;
   background: url(../img/header.jpg) center center no-repeat;
   background-size: cover;
