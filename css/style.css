@@ -78,6 +78,26 @@ input {
   font-size: 12px;
   font-family: "Ubuntu-R";
 }
+.btn-wrap {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.btn-black {
+  width: auto;
+  outline: none;
+  box-sizing: border-box;
+  padding: 7px 15px;
+  border: 1px solid #000;
+  color: #000;
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+.btn-black:hover {
+  color: #fff;
+  background: #000;
+}
 .send-btn {
   display: inline-block;
 }
@@ -122,7 +142,7 @@ input {
   float: left;
   width: 100%;
   margin-top: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
 }
 .head-logo {
   float: left;
@@ -179,4 +199,49 @@ input {
 }
 .nav a:hover {
   text-decoration: underline;
+}
+.header-main {
+  float: left;
+  width: 100%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  box-sizing: border-box;
+  background: url(../img/header.jpg) center center no-repeat;
+  background-size: cover;
+}
+.header-main h1 {
+  float: left;
+  width: 100%;
+  font-weight: normal;
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+}
+.header-main .btn-wrap {
+  margin-top: 25px;
+}
+.second {
+  float: left;
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+  background: url(../img/second.jpg) center center no-repeat;
+  background-size: cover;
+}
+.second h2 {
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+.second p {
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
 }

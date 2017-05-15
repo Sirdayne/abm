@@ -33,6 +33,13 @@ button, input{
     border: none; border: 1px solid #5d4063; background: rgba(0,0,0,0); -webkit-transition: .2s linear; transition: .2s linear; font-size: 12px; font-family: @f-r; 
 }
 
+.btn-wrap{ float: left; width: 100%; text-align: center; }
+
+.btn-black{ width: auto; outline:none; box-sizing: border-box; padding: 7px 15px; border: 1px solid #000; color: #000;
+    background: rgba(0,0,0,0); -webkit-transition: .3s linear; transition: .3s linear;
+    &:hover{ color: #fff; background: #000; }
+}
+
 .send-btn{
     display: inline-block;
 }
@@ -50,7 +57,7 @@ button, input{
 
 .wrap{float: left; width: 80%; margin-left: 10%; margin-right: 10%; height: auto;}
 
-.head{ float: left; width: 100%; margin-top: 22px; margin-bottom: 20px; }
+.head{ float: left; width: 100%; margin-top: 22px; margin-bottom: 23px; }
 
 .head-logo{ float: left; height: @head-height; width: auto;
     img{ float: left; height: 100%; width: auto; }
@@ -74,5 +81,13 @@ button, input{
     } 
 }
 
+.header-main{ float: left; width: 100%; padding-top: 85px; padding-bottom: 85px; box-sizing: border-box; background: url(../img/header.jpg) center center no-repeat; background-size: cover;
+    h1{ float: left; width: 100%; font-weight: normal; font-size: 34px; color: #000; text-align: center; }
+    .btn-wrap{ margin-top: 25px; }
+}
 
+.second{ float: left; width: 100%; padding-top: 65px; padding-bottom: 65px; box-sizing: border-box; background: url(../img/second.jpg) center center no-repeat; background-size: cover;
+    h2{ float: left; width: 100%; color: #fff; font-weight: normal; font-size: 18px; text-align: center; }
+    p{ float: left; width: 100%; color: #fff; margin-top: 15px; font-size: 13px; text-align: center; }
+}
 
