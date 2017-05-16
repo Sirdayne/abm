@@ -330,9 +330,11 @@ h6 {
 }
 .foot a {
   color: #6f6f6f;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 .foot a:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 .under-footer {
   float: left;
@@ -345,7 +347,7 @@ h6 {
 }
 .foot-logo {
   display: block;
-  height: 33px;
+  height: 37px;
   width: auto;
 }
 .foot-logo img {
@@ -355,7 +357,7 @@ h6 {
 }
 .foot-tel {
   display: block;
-  height: 33px;
+  height: 37px;
   width: auto;
   padding-top: 12px;
   font-size: 12px;
@@ -366,18 +368,18 @@ h6 {
 }
 .foot-icons {
   display: block;
-  height: 33px;
+  height: 37px;
   width: auto;
 }
 .foot-icon {
   display: inline-block;
   height: 100%;
   width: auto;
-  margin: 5px 9px 0;
+  margin: 12px 9px 0;
 }
 .foot-icon img {
   display: block;
-  height: 24px;
+  height: 19px;
   width: auto;
 }
 .foot-gi {

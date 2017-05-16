@@ -8,7 +8,7 @@
 @gray: #6f6f6f;
 
 @head-height: 45px; 
-@foot-height: 33px;
+@foot-height: 37px;
 
 button, input{
     font-family: @f-l;
@@ -111,8 +111,8 @@ h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
 .footation{ float: left; width: 100%; box-sizing: border-box; border-bottom: 1px solid @gray; padding-top: 35px; padding-bottom: 35px; display: flex; justify-content: space-between; }
 
 .foot{ display: block; color: @gray; height: 30px; line-height: 30px; font-size: 13px;
-    a{ color: @gray;
-        &:hover{ text-decoration: underline; }
+    a{ color: @gray; -webkit-transition: .3s linear;transition: .3s linear;
+        &:hover{ color: #fff; }
     }
 }
 
@@ -128,8 +128,8 @@ h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
 
 .foot-icons{ display: block; height: @foot-height; width: auto; }
 
-.foot-icon{ display: inline-block; height: 100%; width: auto; margin: 5px 9px 0;
-    img{ display: block; height: 24px; width: auto; }
+.foot-icon{ display: inline-block; height: 100%; width: auto; margin: 12px 9px 0;
+    img{ display: block; height: 19px; width: auto; }
 }
 
 .foot-gi{ display: block; height: 24px; width: auto;
