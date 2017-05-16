@@ -5,12 +5,16 @@
 
 @pur: #525084;
 @pur-border: rgba(82, 80, 132, 0.5);
+@gray: #6f6f6f;
 
 @head-height: 45px; 
+@foot-height: 33px;
 
 button, input{
     font-family: @f-l;
 }
+
+h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
 
 .modal-back{ position: fixed; top: 0; left: 0; width: 100%; height: 9000px; background: rgba(0,0,0,0.5); z-index: 11; display: none; }
 
@@ -55,7 +59,7 @@ button, input{
     p{ font-size: 13px; }
 }
 
-.wrap{float: left; width: 80%; margin-left: 10%; margin-right: 10%; height: auto;}
+.wrap{float: left; width: 70%; margin-left: 15%; margin-right: 15%; height: auto;}
 
 .head{ float: left; width: 100%; margin-top: 22px; margin-bottom: 23px; }
 
@@ -81,13 +85,59 @@ button, input{
     } 
 }
 
-.header-main{ float: left; width: 100%; padding-top: 115px; padding-bottom: 115px; box-sizing: border-box; background: url(../img/header.jpg) center center no-repeat; background-size: cover;
+.header-main{ float: left; width: 100%; padding-top: 135px; padding-bottom: 135px; box-sizing: border-box; background: url(../img/header.jpg) center center no-repeat; background-size: cover;
     h1{ float: left; width: 100%; font-weight: normal; font-size: 34px; color: #000; text-align: center; }
     .btn-wrap{ margin-top: 25px; }
 }
 
-.second{ float: left; width: 100%; padding-top: 65px; padding-bottom: 65px; box-sizing: border-box; background: url(../img/second.jpg) center center no-repeat; background-size: cover;
+.second{ float: left; width: 100%; padding-top: 95px; padding-bottom: 95px; box-sizing: border-box; background: url(../img/second.jpg) center center no-repeat; background-size: cover;
     h2{ float: left; width: 100%; color: #fff; font-weight: normal; font-size: 18px; text-align: center; }
     p{ float: left; width: 100%; color: #fff; margin-top: 15px; font-size: 13px; text-align: center; }
+}
+
+.main-spec{ float: left; width: 80%; margin-left: 10%; margin-right: 10%; }
+
+.ms-box{ float: left; width: 20%; height: 550px; box-sizing: border-box; padding: 0 10px; border-right: 1px solid #b4b4b4; position: relative;
+    h2{ position: absolute; top: 55px; left: 0; width: 100%; font-size: 18px; color: #383838; text-align: center; font-weight: normal; }
+    h3{ float: left; width: 100%; margin-top: 135px; box-sizing: border-box; padding-left: 40px; font-size: 20px; font-family: @f-b; font-weight: normal; color: #b4b4b4; }
+    img{ float: left; width: 100%; margin-top: 20px; }
+    p{ float: left; width: 100%; margin-top: 20px; box-sizing: border-box; padding: 0 30px; font-size: 13px; color: #383838; }
+
+    &-no{ border-right: none; }
+}
+
+.footer{ float: left; width: 100%; background: #000; }
+
+.footation{ float: left; width: 100%; box-sizing: border-box; border-bottom: 1px solid @gray; padding-top: 35px; padding-bottom: 35px; display: flex; justify-content: space-between; }
+
+.foot{ display: block; color: @gray; height: 30px; line-height: 30px; font-size: 13px;
+    a{ color: @gray;
+        &:hover{ text-decoration: underline; }
+    }
+}
+
+.under-footer{ float: left; width: 100%; box-sizing: border-box; padding-top: 30px; padding-bottom: 40px; display: flex; justify-content: space-between; }
+
+.foot-logo{ display: block; height: @foot-height; width: auto;
+    img{ display: block; height: 100%; width: auto; }
+}
+
+.foot-tel{ display: block; height: @foot-height; width: auto; padding-top: 12px; font-size: 12px; color: @gray;
+    a{ color: @gray; }
+}
+
+.foot-icons{ display: block; height: @foot-height; width: auto; }
+
+.foot-icon{ display: inline-block; height: 100%; width: auto; margin: 5px 9px 0;
+    img{ display: block; height: 24px; width: auto; }
+}
+
+.foot-gi{ display: block; height: 24px; width: auto;
+    p{ display: inline-block; font-size: 13px; color: @gray; line-height: 14px; text-align: right; -webkit-transition: .3s linear;transition: .3s linear; vertical-align: bottom; }
+    svg{ display: inline-block; margin-left: 12px; height: 28px; width: auto; vertical-align: bottom; }
+    path { fill: #67717a; -webkit-transition: .3s linear;transition: .3s linear; }
+
+    &:hover path{ fill: #2281c1; }
+    &:hover p{ color: #fff; }
 }
 

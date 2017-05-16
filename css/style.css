@@ -3,6 +3,14 @@ button,
 input {
   font-family: "Ubuntu-L";
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu-R";
+}
 .modal-back {
   position: fixed;
   top: 0;
@@ -133,9 +141,9 @@ input {
 }
 .wrap {
   float: left;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   height: auto;
 }
 .head {
@@ -203,8 +211,8 @@ input {
 .header-main {
   float: left;
   width: 100%;
-  padding-top: 115px;
-  padding-bottom: 115px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   box-sizing: border-box;
   background: url(../img/header.jpg) center center no-repeat;
   background-size: cover;
@@ -223,8 +231,8 @@ input {
 .second {
   float: left;
   width: 100%;
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 95px;
+  padding-bottom: 95px;
   box-sizing: border-box;
   background: url(../img/second.jpg) center center no-repeat;
   background-size: cover;
@@ -244,4 +252,164 @@ input {
   margin-top: 15px;
   font-size: 13px;
   text-align: center;
+}
+.main-spec {
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ms-box {
+  float: left;
+  width: 20%;
+  height: 550px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-right: 1px solid #b4b4b4;
+  position: relative;
+}
+.ms-box h2 {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
+  font-weight: normal;
+}
+.ms-box h3 {
+  float: left;
+  width: 100%;
+  margin-top: 135px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  font-size: 20px;
+  font-family: "Ubuntu-B";
+  font-weight: normal;
+  color: #b4b4b4;
+}
+.ms-box img {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.ms-box p {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  font-size: 13px;
+  color: #383838;
+}
+.ms-box-no {
+  border-right: none;
+}
+.footer {
+  float: left;
+  width: 100%;
+  background: #000;
+}
+.footation {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #6f6f6f;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot {
+  display: block;
+  color: #6f6f6f;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+}
+.foot a {
+  color: #6f6f6f;
+}
+.foot a:hover {
+  text-decoration: underline;
+}
+.under-footer {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-logo {
+  display: block;
+  height: 33px;
+  width: auto;
+}
+.foot-logo img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.foot-tel {
+  display: block;
+  height: 33px;
+  width: auto;
+  padding-top: 12px;
+  font-size: 12px;
+  color: #6f6f6f;
+}
+.foot-tel a {
+  color: #6f6f6f;
+}
+.foot-icons {
+  display: block;
+  height: 33px;
+  width: auto;
+}
+.foot-icon {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  margin: 5px 9px 0;
+}
+.foot-icon img {
+  display: block;
+  height: 24px;
+  width: auto;
+}
+.foot-gi {
+  display: block;
+  height: 24px;
+  width: auto;
+}
+.foot-gi p {
+  display: inline-block;
+  font-size: 13px;
+  color: #6f6f6f;
+  line-height: 14px;
+  text-align: right;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  vertical-align: bottom;
+}
+.foot-gi svg {
+  display: inline-block;
+  margin-left: 12px;
+  height: 28px;
+  width: auto;
+  vertical-align: bottom;
+}
+.foot-gi path {
+  fill: #67717a;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+.foot-gi:hover path {
+  fill: #2281c1;
+}
+.foot-gi:hover p {
+  color: #fff;
 }
