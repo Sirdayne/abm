@@ -146,11 +146,17 @@ h6 {
   margin-right: 15%;
   height: auto;
 }
+.header {
+  float: left;
+  width: 100%;
+}
 .head {
   float: left;
   width: 100%;
-  margin-top: 22px;
-  margin-bottom: 23px;
+  padding: 23px 0;
+  background: #fff;
+  position: relative;
+  z-index: 3;
 }
 .head-logo {
   float: left;
@@ -189,11 +195,14 @@ h6 {
   float: left;
   width: 100%;
   background: #000;
+  position: relative;
 }
-.navigation .wrap {
+.navigation-row {
   float: left;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 .nav {
   display: block;
@@ -202,11 +211,28 @@ h6 {
   line-height: 30px;
   font-size: 13px;
 }
-.nav a {
-  color: #fff;
-}
-.nav a:hover {
+.nav:hover {
   text-decoration: underline;
+}
+.nav-mob {
+  display: none;
+  float: left;
+  padding: 12px 10%;
+  height: 16px;
+  width: 80%;
+  background: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+.nav-mob p {
+  float: left;
+  width: auto;
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #fff;
 }
 .header-main {
   float: left;
@@ -258,6 +284,15 @@ h6 {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+}
+.main-spec-title {
+  display: none;
+  float: left;
+  width: 100%;
+  margin-top: 35px;
+  font-size: 18px;
+  color: #383838;
+  text-align: center;
 }
 .ms-box {
   float: left;
@@ -358,8 +393,9 @@ h6 {
 .foot-tel {
   display: block;
   height: 37px;
+  box-sizing: border-box;
   width: auto;
-  padding-top: 12px;
+  padding-top: 13px;
   font-size: 12px;
   color: #6f6f6f;
 }
@@ -375,7 +411,8 @@ h6 {
   display: inline-block;
   height: 100%;
   width: auto;
-  margin: 12px 9px 0;
+  box-sizing: border-box;
+  padding: 12px 9px 0;
 }
 .foot-icon img {
   display: block;
@@ -384,8 +421,10 @@ h6 {
 }
 .foot-gi {
   display: block;
-  height: 24px;
+  height: 37px;
   width: auto;
+  box-sizing: border-box;
+  padding-top: 4px;
 }
 .foot-gi p {
   display: inline-block;

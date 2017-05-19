@@ -1,4 +1,22 @@
 $(document).ready(function(){
+
+    // NAVIGATION
+
+    $('body').on('click','.nav-mob' , function(){
+        $('.navigation-row').toggleClass('nav-active');
+    });
+
+
+
+
+
+
+
+
+
+
+    /*
+
 	                       
     $('body').on('click','.modal-back, .modal-close' , function(){
         $('.modal-back, .modal, .thx, .modal-calc').fadeOut(500);
@@ -73,6 +91,8 @@ $(document).ready(function(){
 
         changePagination();
     });
+
+    */
 
 });
 
