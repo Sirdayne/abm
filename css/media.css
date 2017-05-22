@@ -22,6 +22,15 @@
     .ms-box p{ padding: 0; }
     .ms-box img{ margin-top: 5px; }
 }
+
+@media only screen and (max-width : 1000px) {
+    .box-process{ width: 100%; margin: 15px 0; }
+    .box-process-call{ width: 100%; margin: 15px 0; }
+    .box-process-call .box-process{ width: 100%; margin: 0; }
+    .box-consultation{ width: 100%; margin: 5px 0 35px; }
+    .bp-txt{ height: auto; min-height: 40px; }
+}
+
 @media only screen and (max-width : 800px) {
     .header-main h1{ font-size: 20px; }
 

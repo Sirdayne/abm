@@ -147,3 +147,45 @@ h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
     &:hover p{ color: #fff; }
 }
 
+.section-processes{ float: left; width: 100%; padding: 35px 0; background: rgba(0,0,0,0.1); }
+
+.box-process{ float: left; width: ~"calc(50% - 30px)"; margin: 15px; box-shadow: 0.5px 0.9px 16px 0 rgba(0, 0, 1, 0.26); background: #fff; }
+
+.bp-img{ float: left; width: 100%; height: 200px; position: relative;
+    h3{ position: absolute; top: 25px; left: 25px; color: #fff; font-size: 16px; font-weight: bold; }
+    h4{ position: absolute; bottom: 15px; left: 25px; color: #fff; font-size: 17px; font-family: @f-l; letter-spacing: 1px; font-weight: normal; }
+}
+
+.bp-txt{ float: left; width: 100%; box-sizing: border-box; min-height: 87px; padding: 15px 25px;
+    p{ float: left; width: 100%; font-size: 14px; }
+}
+
+.bp-1{ background: url(../img/process-1.jpg) center center no-repeat; background-size: cover; }
+.bp-2{ background: url(../img/process-2.jpg) center center no-repeat; background-size: cover; }
+.bp-3{ background: url(../img/process-3.jpg) center center no-repeat; background-size: cover; }
+.bp-4{ background: url(../img/process-4.jpg) center center no-repeat; background-size: cover; }
+.bp-5{ background: url(../img/process-5.jpg) center center no-repeat; background-size: cover; }
+.bp-6{ background: url(../img/process-6.jpg) center center no-repeat; background-size: cover; }
+.bp-7{ background: url(../img/process-7.jpg) center center no-repeat; background-size: cover; }
+
+.box-process-call{ float: left; width: ~"calc(100% - 30px)"; margin: 15px; background: #fff; box-shadow: 0.5px 0.9px 16px 0 rgba(0, 0, 1, 0.26);
+    .box-process{ width: ~"calc(50% - 15px)"; margin: 0 15px 0 0; box-shadow: none; }
+}
+
+.box-consultation{ float: left; width: ~"calc(50% - 15px)"; margin: 0 0 0 15px;
+    h3{ float: left; width: 100%; margin-top: 15px; text-align: center; }
+}
+
+.bc-row{ float: left; width: 100%; margin-top: 5px; width: 100%; position: relative;
+    label { float: left; width: 70%; margin: 12px 15% 0; font-size: 13px; font-family: @f-l; }
+    input {float: left; outline: none; border: none; border: 1px solid rgba(0,0,0,0.2); width: 70%; margin: 5px 15% 0; font-size: 14px; box-sizing: border-box;
+    padding: 7px 7px 7px 30px; font-family: @f-l;
+        &:focus{ border: 1px solid @pur; }
+    }
+    img{ position: absolute; top: 14px; left: ~"calc(15% + 10px)"; height: 17px; width: auto;}
+
+    .bc-btn{ display: block; margin: 19px auto 0; width: auto; outline:none; box-sizing: border-box; padding: 3px 35px; border: 1px solid @pur; color: @pur; font-size: 14px; font-family: @f-r;
+    background: #fff; -webkit-transition: .3s linear; transition: .3s linear;
+    &:hover{ color: #fff; background: @pur; }
+    }
+}
