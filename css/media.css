@@ -32,6 +32,11 @@
 }
 
 @media only screen and (max-width : 800px) {
+    .sc-title p{ width: 90%; margin: 7px 5% 0; }
+    .sc-box{ display: block; }
+    .sc-img{ height: 220px; width: 100%; }
+    .sc-txt{ width: 100%; padding: 25px; }
+
     .header-main h1{ font-size: 20px; }
 
     .head-logo{ height: 38px; }
