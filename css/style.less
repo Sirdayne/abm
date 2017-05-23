@@ -182,6 +182,10 @@ h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
     padding: 7px 7px 7px 30px; font-family: @f-l;
         &:focus{ border: 1px solid @pur; }
     }
+    textarea {float: left; outline: none; border: none; border: 1px solid rgba(0,0,0,0.2); width: 70%; max-width: 70%; margin: 5px 15% 0; font-size: 14px; box-sizing: border-box;
+    padding: 7px 7px 7px 30px; font-family: @f-l; height: 200px; max-height: 200px;
+        &:focus{ border: 1px solid @pur; }
+    }
     select{ float: left; width: 70%; outline: none; margin: 5px 15% 0; font-size: 14px; padding: 7px 7px 7px 30px; }
     img{ position: absolute; top: 14px; left: ~"calc(15% + 10px)"; height: 17px; width: auto;}
 
@@ -261,4 +265,22 @@ h1, h2, h3, h4, h5, h6{ font-family: @f-r; }
 .sas-4{ background: url(../img/usluga-4.jpg) center center no-repeat; background-size: cover; }
 .sas-5{ background: url(../img/usluga-5.jpg) center center no-repeat; background-size: cover; }
 
+.section-contacts{ float: left; width: 100%; margin: 0; }
+
 .service-form{ float: left; width: 40%; margin: 15px 30% 65px; }
+
+.contact-info{ float: left; width: 45%;
+    h4{ float: left; width: 100%; margin-top: 45px; font-size: 22px; font-family: @f-l; font-weight: bold; }
+    p{ float: left; width: 100%; margin-top: 25px; font-size: 14px; }
+}
+
+.contact-form{ float: left; width: 55%;
+    h4{ float: left; width: 70%; margin: 45px 15% 0; font-size: 22px; font-family: @f-l; font-weight: bold;  }
+
+}
+
+.bc-btn-row{ float: left; width: 70%; margin: 0 15%;
+    .bc-btn{ float: left; margin: 19px 0 0;}
+}
+
+.contact-map{ float: left; width: 100%; height: 350px; margin: 35px 0;}

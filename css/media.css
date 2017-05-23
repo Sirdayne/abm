@@ -66,6 +66,14 @@
     .foot-gi{ float: right; width: auto; }
 
     .service-form{ float: left; width: 80%; margin: 15px 10% 65px; }
+
+    .contact-info{ width: 70%; margin: 0 15%; }
+    .contact-info h4{ text-align: center; }
+
+    .contact-form{ width: 100%; }
+    .contact-form h4{ text-align: center; }
+
+    .bc-btn-row .bc-btn{ float: none; margin: 19px auto 0;}
 }
 
 @media only screen and (max-width : 600px) {
