@@ -4,6 +4,7 @@ $(document).ready(function(){
 
     $('body').on('click','.nav-mob' , function(){
         $('.navigation-row').toggleClass('nav-active');
+        $(this).toggleClass('nav-active');
     });
 
 

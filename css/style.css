@@ -234,6 +234,20 @@ h6 {
   font-size: 14px;
   color: #fff;
 }
+.nav-mob img {
+  float: right;
+  width: auto;
+  height: 16px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+.nav-active img {
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
 .header-main {
   float: left;
   width: 100%;
